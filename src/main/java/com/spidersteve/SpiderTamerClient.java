@@ -1,5 +1,12 @@
 package com.spidersteve;
 
-public class SpiderTamerClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class SpiderTamerClient implements ClientModInitializer {
+
+    @Override
+    public void onInitializeClient() {
+
+    }
     
 }
