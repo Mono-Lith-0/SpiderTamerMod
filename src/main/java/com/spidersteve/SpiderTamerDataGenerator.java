@@ -1,4 +1,4 @@
-package com.spider_tamer;
+package com.spidersteve;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
