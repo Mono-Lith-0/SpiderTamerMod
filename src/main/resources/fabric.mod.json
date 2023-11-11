@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "spider_tamer",
+	"id": "spider-steve",
 	"version": "${version}",
-	"name": "Spider Tamer",
+	"name": "Spider Steve",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -11,22 +11,22 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "GLP 3.0",
-	"icon": "assets/spider_tamer/icon.png",
+	"license": "CC0-1.0",
+	"icon": "assets/spider-steve/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.spider_tamer.SpiderTamer"
+			"com.spidersteve.SpiderTamer"
 		],
 		"client": [
-			"com.spider_tamer.SpiderTamerClient"
+			"com.spidersteve.SpiderTamerClient"
 		],
 		"fabric-datagen": [
-			"com.spider_tamer.SpiderTamerDataGenerator"
+			"com.spidersteve.SpiderTamerDataGenerator"
 		]
 	},
 	"mixins": [
-		"spider_tamer.mixins.json"
+		"spider-tamer.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

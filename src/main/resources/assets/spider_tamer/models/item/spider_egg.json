@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "spider_tamer:item/spider_egg"
-    }
-}
