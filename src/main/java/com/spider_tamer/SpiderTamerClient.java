@@ -1,4 +1,4 @@
-package com.spidersteve;
+package com.spider_tamer;
 
 import net.fabricmc.api.ClientModInitializer;
 

@@ -1,6 +1,6 @@
-package com.spidersteve.item;
+package com.spider_tamer.item;
 
-import com.spidersteve.SpiderTamer;
+import com.spider_tamer.SpiderTamer;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item SPIDER_EGG = registerItem("spider-egg", new Item(new FabricItemSettings()));
+    public static final Item SPIDER_EGG = registerItem("spider_egg", new Item(new FabricItemSettings()));
     
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SpiderTamer.MOD_ID, name), item);

@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "GLP 3.0",
-	"icon": "assets/spider-steve/icon.png",
+	"icon": "assets/spider_tamer/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.spidersteve.SpiderTamer"
+			"com.spider_tamer.SpiderTamer"
 		],
 		"client": [
-			"com.spidersteve.SpiderTamerClient"
+			"com.spider_tamer.SpiderTamerClient"
 		],
 		"fabric-datagen": [
-			"com.spidersteve.SpiderTamerDataGenerator"
+			"com.spider_tamer.SpiderTamerDataGenerator"
 		]
 	},
 	"mixins": [
