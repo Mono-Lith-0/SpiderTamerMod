@@ -1,4 +1,4 @@
-package com.spidersteve.mixin;
+package com.spider_tamer.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
